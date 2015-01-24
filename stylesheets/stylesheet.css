@@ -34,11 +34,6 @@ ol, ul {
   list-style: none;
 }
 
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
-
 /*******************************************************************************
 Theme Styles
 *******************************************************************************/
@@ -53,7 +48,7 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3 {
   margin: 10px 0;
   font-weight: 700;
   color:#222222;
@@ -75,18 +70,6 @@ h3 {
   font-size: 24px;
 }
 
-h4 {
-  font-size: 21px;
-}
-
-h5 {
-  font-size: 18px;
-}
-
-h6 {
-  font-size: 16px;
-}
-
 p {
   margin: 20px 0;
 }
@@ -99,17 +82,6 @@ a {
   text-decoration: none;
   color: #007edf;
   text-shadow: none;
-
-  transition: color 0.5s ease;
-  transition: text-shadow 0.5s ease;
-  -webkit-transition: color 0.5s ease;
-  -webkit-transition: text-shadow 0.5s ease;
-  -moz-transition: color 0.5s ease;
-  -moz-transition: text-shadow 0.5s ease;
-  -o-transition: color 0.5s ease;
-  -o-transition: text-shadow 0.5s ease;
-  -ms-transition: color 0.5s ease;
-  -ms-transition: text-shadow 0.5s ease;
 }
 
 a:hover, a:focus {text-decoration: underline;}
@@ -123,6 +95,7 @@ strong {
 }
 
 img {
+  background: #ffffff;	
   position: relative;
   margin: 0 auto;
   max-width: 739px;
@@ -160,10 +133,6 @@ ol {
   list-style-position: inside;
   list-style: decimal;
   padding-left: 20px;
-}
-
-dl dt {
-  font-weight: bold;
 }
 
 /*******************************************************************************
@@ -218,8 +187,6 @@ Full-Width Styles
 
 .img-right {
   float: right;
-  background: #ffffff;
-  margin: 0 0 10px 20px;
 }
 nav {
 display: table;
