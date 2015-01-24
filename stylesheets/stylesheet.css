@@ -303,10 +303,27 @@ Full-Width Styles
 .img-right {
   float: right;
   background: #ffffff;
-  margin: 0 0 10px 10px;
+  margin: 0 0 10px 20px;
 }
 
 
+nav[role="navigation"] li {
+	float: left;
+	border-right: 1px solid #ddd;
+	}
+nav[role="navigation"] li:last-child {
+	border-right: none;
+	}
+nav[role="navigation"] li a {
+	float: left;
+	padding: 0 10px;
+	text-decoration: none;
+	border-radius: 4px;
+	}
+nav[role="navigation"] li.active a {
+	font-weight: bold;
+	color: #333;
+	}	
 
 
 
