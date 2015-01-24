@@ -182,7 +182,7 @@ Full-Width Styles
 }
 nav {
 display: table;
-margin-bottom: 40px;
+margin-bottom: 30px;
 width: 100%;
 }
 nav ul {
@@ -220,10 +220,6 @@ Small Device Styles
     font-size:14px;
   }
 
-  #downloads {
-    display: none;
-  }
-
   .inner {
     min-width: 320px;
     max-width: 480px;
@@ -245,22 +241,5 @@ Small Device Styles
     font-size: 21px;
   }
 
-  h4 {
-    font-size: 18px;
-  }
-
-  h5 {
-    font-size: 14px;
-  }
-
-  h6 {
-    font-size: 12px;
-  }
-
-  code, pre {
-    min-width: 320px;
-    max-width: 480px;
-    font-size: 11px;
-  }
   
 }
