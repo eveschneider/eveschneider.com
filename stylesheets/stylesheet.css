@@ -331,7 +331,7 @@ nav[role="navigation"] li.active a {
 	color: #333;
 	}	
 nav[role="navigation"] li a.first {
-padding: 0;
+padding: 0 10px 0 0;
 	}
 
 
