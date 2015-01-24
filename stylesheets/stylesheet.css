@@ -102,7 +102,7 @@ img {
   padding: 5px;
   margin: 5px 20px 10px 0;
   border: 1px solid #ebebeb;
-
+  float: left;
   box-shadow: 0 0 5px #ebebeb;
   -webkit-box-shadow: 0 0 5px #ebebeb;
   -moz-box-shadow: 0 0 5px #ebebeb;
@@ -110,14 +110,6 @@ img {
   -ms-box-shadow: 0 0 5px #ebebeb;
 }
 
-p img {
-  display: inline;
-  margin: 0;
-  padding: 0;
-  vertical-align: middle;
-  text-align: center;
-  border: none;
-}
 
 ul, ol, dl {
   margin-bottom: 15px
