@@ -297,7 +297,7 @@ Full-Width Styles
 }
 
 #main_content {
-  padding-top: 40px;
+  padding-top: 20px;
 }
 
 .img-right {
@@ -305,8 +305,15 @@ Full-Width Styles
   background: #ffffff;
   margin: 0 0 10px 20px;
 }
-
-
+nav {
+	display: table;
+	width: 100%;
+}
+nav ul {
+ list-style-type: none;
+ margin: 0;
+ padding: 0;
+}
 nav[role="navigation"] li {
 	float: left;
 	border-right: 1px solid #ddd;
